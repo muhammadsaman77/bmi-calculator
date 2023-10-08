@@ -1,0 +1,55 @@
+:root {
+  --night-netral: #0d0a0b;
+  --charcoal-netral: #454955;
+  --magnolia-netral: #f3eff5;
+  --primary-green: #72b01d;
+  --secondary-green: #3f7d20;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--night-netral);
+}
+main {
+  width: 600px;
+  margin: 100px auto;
+  padding: 10px;
+  background-color: var(--charcoal-netral);
+}
+h1 {
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  color: var(--magnolia-netral);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  color: var(--magnolia-netral);
+}
+input {
+  width: 180px;
+  border-radius: 4px;
+  outline: none;
+  /* background-color: transparent; */
+  font-family: "Plus Jakarta Sans";
+}
+button {
+  width: 200px;
+  padding: 8px;
+  color: var(--magnolia-netral);
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  background-color: var(--primary-green);
+  font-weight: 800;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+}
