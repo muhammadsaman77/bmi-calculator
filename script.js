@@ -14,13 +14,13 @@ function calculateBMI(weight, height) {
 }
 function getCategoryBMI(value) {
   if (value <= 18.5) {
-    return "Underweight";
+    return "Kekurangan Berat Badan";
   } else if (18.5 < value && value < 25) {
     return "Normal";
-  } else if (25 <= value < 30) {
-    return "Overweight";
+  } else if (25 <= value && value < 30) {
+    return "Kelebihan Berat Badan";
   }
-  return "Obesity";
+  return "Obesitas";
 }
 
 document

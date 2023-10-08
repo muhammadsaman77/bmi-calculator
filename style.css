@@ -11,10 +11,11 @@ body {
   background-color: var(--night-netral);
 }
 main {
-  width: 600px;
+  width: 500px;
   margin: 100px auto;
-  padding: 10px;
+  padding: 20px;
   background-color: var(--charcoal-netral);
+  border-radius: 4px;
 }
 h1 {
   text-align: center;
@@ -24,18 +25,17 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 5px;
 }
 label {
-  text-align: center;
   font-family: "Plus Jakarta Sans";
   color: var(--magnolia-netral);
 }
 input {
-  width: 180px;
+  width: 100%;
+  height: 24px;
   border-radius: 4px;
   outline: none;
-  /* background-color: transparent; */
   font-family: "Plus Jakarta Sans";
 }
 button {
@@ -46,10 +46,15 @@ button {
   font-size: 14px;
   background-color: var(--primary-green);
   font-weight: 800;
-  border-radius: 8px;
   margin-top: 20px;
+  border-radius: 6px;
 }
 
 p {
-  text-align: center;
+  color: var(--magnolia-netral);
+  font-family: "Plus Jakarta Sans";
+}
+span {
+  color: var(--primary-green);
+  font-family: "Plus Jakarta Sans";
 }
